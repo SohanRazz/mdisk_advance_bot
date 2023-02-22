@@ -5,9 +5,9 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.environ.get("API_ID", "21948679"))
-    API_HASH = os.environ.get("API_HASH", "d1a9ac6ab9cfa0cefc908280c8a3cca1")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5604228803:AAFFgUJxp2jduf6H12qnknHWdGfQ7Ahvctc")
+    API_ID = int(os.environ.get("API_ID", "29513127"))
+    API_HASH = os.environ.get("API_HASH", "bd4ec4de9bb7c3b018ce18a4957e1739")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6255453309:AAG5FVR_pv9km8P40FbVVf1PTn3LtMEMEvk")
     BOT_SESSION_NAME = os.environ.get("BOT_SESSION_NAME", "MdiskSearchBot")
     USER_SESSION_STRING = os.environ.get("USER_SESSION_STRING", "BQA4Qm_DfGisrKHBnPG3os-4ZqhSejkQ5NdlUmlzCoKSE4VBkdiufTn_3T1CGHt-qfV3XWCB0C1UvRWeCkrmBQAzlQoaBMyfBXNP0zvYCTpXrLzR9gZyMTCRypvanEiP9a4nGYv1IUJTnR8mC4lSNYRT-4Hz9desFHxtkmkb4bkQFVEZFkKcYN2DKQJ4M0yXX-N2QRORDEs-tvtL5bUJQGMqHVnfdu-u3c6bVS1faQAMtW_Rhm3LWnykngNHnTZLcGh2RyYNNH9s0wcXq0pVt6mFjb9yju0J7KtRj1JdR2lUeJ4RSdoX4_Ab150_Eht-FLb_mR_rmiLAkOnaOl-AisAAAAAVyYLBYA")
     CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001836945914"))
